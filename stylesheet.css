@@ -1,0 +1,90 @@
+
+*{
+    margin:0;
+}
+
+html{
+    height:100%;
+}
+
+body{
+    width:760px;
+    margin:auto;
+    text-align:center;
+    font-family:verdana;
+    height:100%;
+}
+#content{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+
+#footer,#push{
+    height: 4em;
+}
+
+
+h1{
+    font-family:Garamond;
+    color:red;
+    font-size:36pt;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+h1 span{
+    font-family:Garamond;
+    color:blue;
+}
+
+span{
+    color:blue;
+}
+#main{
+    position:relative;
+}
+
+#question{
+    font-family:Verdana;
+    padding-bottom:20px;
+    padding-top:20px;
+    font-size:24pt;
+}
+
+#answers{
+    margin-bottom:20px;
+}
+
+#score{
+    width:100px;
+    height:60px;
+    position:absolute;
+    right:20px;
+    top:165px;
+    border:blue solid 2px;
+    border-radius:5px;
+    line-height:60px;
+
+    
+}
+
+
+button {
+  color: blue;
+  font-weight: bold;
+  font-size: 150%;
+  background-color: #DEF3FA;
+  border: 2px solid blue;
+  width:25%;
+    height:40px;
+    border-radius:5px;
+    box-shadow: 5px 5px 5px #888;
+    margin:3px;
+}
+
+.sub{
+    width:20%;
+    margin-top:20px;
+}
